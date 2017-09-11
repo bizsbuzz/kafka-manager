@@ -1,0 +1,1325 @@
+03:15:36,743 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+03:15:36,744 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+03:15:36,744 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ec2-user/kafka-manager-1.3.3.13/conf/logback.xml]
+03:15:36,875 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+03:15:36,877 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word coloredLevel with class [play.api.Logger$ColoredLevel]
+03:15:36,877 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:15:36,884 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+03:15:36,921 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:15:36,952 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:27 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+03:15:36,956 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+03:15:36,957 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log for the active file
+03:15:36,961 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log'.
+03:15:36,961 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+03:15:36,965 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Sep 11 03:15:20 UTC 2017
+03:15:36,967 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/ec2-user/kafka-manager-1.3.3.13/logs/application.log
+03:15:36,967 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/ec2-user/kafka-manager-1.3.3.13/logs/application.log]
+03:15:36,968 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+03:15:36,970 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+03:15:36,971 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:15:36,973 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:15:36,974 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCFILE]
+03:15:36,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to ch.qos.logback.classic.AsyncAppender[ASYNCFILE]
+03:15:36,975 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Attaching appender named [FILE] to AsyncAppender.
+03:15:36,975 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Setting discardingThreshold to 51
+03:15:36,975 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:15:36,975 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCSTDOUT]
+03:15:36,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT]
+03:15:36,975 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Attaching appender named [STDOUT] to AsyncAppender.
+03:15:36,975 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Setting discardingThreshold to 51
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [kafka.manager] to INFO
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebean.config.PropertyMapLoader] to OFF
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.core.XmlConfigLoader] to OFF
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.lib.BackgroundThread] to OFF
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.gargoylesoftware.htmlunit.javascript] to OFF
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.zookeeper] to INFO
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to WARN
+03:15:36,978 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCFILE] to Logger[ROOT]
+03:15:36,978 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCSTDOUT] to Logger[ROOT]
+03:15:36,978 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+03:15:36,979 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1be87e72 - Registering current configuration as safe fallback point
+
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:host.name=localhost
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.version=1.8.0_141
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.32.amzn1.x86_64/jre
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.class.path=/home/ec2-user/kafka-manager-1.3.3.13/lib/../conf/:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-library-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-lang3-3.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.build-link-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-exceptions-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.javassist.javassist-3.19.0-GA.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-stm.scala-stm_2.11-0.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.config-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-json_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/joda-time.joda-time-2.8.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.joda.joda-convert-1.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-utils-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jul-to-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-core-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-classic-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-actor_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/commons-codec.commons-codec-1.10.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xerces.xercesImpl-2.11.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xml-apis.xml-apis-1.4.01.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.transaction.jta-1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.guice-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.inject.javax.inject-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/aopalliance.aopalliance-1.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.guava.guava-16.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/io.netty.netty-3.10.4.Final.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.code.findbugs.jsr305-2.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-play_2.11-2.4.0-2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.requirejs-2.1.20.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-0.28.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-core-0.27.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-compress-1.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.npm.validate.js-0.8.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.bootstrap-3.3.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.jquery-2.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.backbonejs-1.2.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.underscorejs-1.8.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.dustjs-linkedin-2.6.1-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.json-20121008-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-framework-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-client-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.zookeeper.zookeeper-3.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/jline.jline-0.9.94.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-recipes-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-jackson_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-core_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-ast_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalap_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-xml_2.11-1.0.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-databind-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-annotations-2.6.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-core-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalaz_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scalaz.scalaz-core_2.11-7.2.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.log4j-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.adrianhurt.play-bootstrap3_2.11-0.4.5-P24.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.clapper.grizzled-slf4j_2.11-1.0.2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka_2.11-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.101tec.zkclient-0.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.sf.jopt-simple.jopt-simple-4.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka-clients-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.jpountz.lz4.lz4-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.xerial.snappy.snappy-java-1.1.2.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.slf4j-api-1.7.21.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum-macros_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-reflect-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-assets.jar
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.name=Linux
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.arch=amd64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.version=4.9.32-15.41.amzn1.x86_64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.name=ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.home=/home/ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.dir=/home/ec2-user/kafka-manager-1.3.3.13
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@71e9f523
+[[37minfo[0m] k.m.a.KafkaManagerActor - zk=ip-10-240-39-27.ec2.internal:22181
+[[37minfo[0m] k.m.a.KafkaManagerActor - baseZkPath=/kafka-manager
+[[37minfo[0m] o.a.z.Login - successfully logged in.
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b00037, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.DeleteClusterActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Adding kafka manager path cache listener...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Scheduling updater for 10 seconds
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting kafka manager path cache...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding kafka manager path cache listener...
+[[37minfo[0m] play.api.Play - Application started (Prod)
+[[37minfo[0m] p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding new cluster manager for cluster : Infra-Kafka-Docker
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting curator...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Not adding cluster manager for disabled cluster : Infra-Kafka-PoC
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6d4ab15
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting shared curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@49a562c
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b00038, negotiated timeout = 40000
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:32181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:32181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:32181, sessionid = 0x25e6d4428b60008, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-command
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Scheduling updater for 30 seconds
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state,Some({sasl.mechanism=PLAIN, ssl.truststore.location=../../conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=../../conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@4f7e2591,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),LongRunningPoolConfig(2,1000),5,10000,Some({sasl.mechanism=PLAIN, ssl.truststore.location=../../conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=../../conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics tree cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting delete topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting offset cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting consumers tree cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Adding consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Constructing new kafka consumer client using these properties: 
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - security.protocol=SASL_SSL
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - enable.auto.commit=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - group.id=kafka-manager
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - auto.offset.reset=latest
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.location=../../conf/ssl/kafka.consumer.truststore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - bootstrap.servers=ip-10-240-39-27.ec2.internal:39092,ip-10-240-39-27.ec2.internal:39093,ip-10-240-39-27.ec2.internal:39094
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.location=../../conf/ssl/kafka.consumer.keystore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - exclude.internal.topics=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - sasl.mechanism=PLAIN
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.key.password=confluent
+[[31merror[0m] k.m.a.c.package$TryLogErrorHelper - Failed to create consumer for offset topic for cluster Infra-Kafka-Docker
+org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:702) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Try$.apply(Try.scala:192) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.run(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_141]
+Caused by: org.apache.kafka.common.KafkaException: org.apache.kafka.common.KafkaException: java.io.FileNotFoundException: ../../conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:86) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.ClientUtils.createChannelBuilder(ClientUtils.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:623) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Try$.apply(Try.scala:192) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+Caused by: org.apache.kafka.common.KafkaException: java.io.FileNotFoundException: ../../conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at org.apache.kafka.common.security.ssl.SslFactory.configure(SslFactory.java:110) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.ClientUtils.createChannelBuilder(ClientUtils.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:623) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+Caused by: java.io.FileNotFoundException: ../../conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_141]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_141]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_141]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_141]
+	at org.apache.kafka.common.security.ssl.SslFactory$SecurityStore.load(SslFactory.java:205) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory$SecurityStore.access$000(SslFactory.java:190) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory.createSSLContext(SslFactory.java:126) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory.configure(SslFactory.java:108) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - KafkaManagedOffsetCache shut down for cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Shutting down kafka manager
+[[37minfo[0m] k.m.a.DeleteClusterActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Cancelling updater...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - Closing admin client...
+03:18:04,357 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+03:18:04,357 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+03:18:04,359 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ec2-user/kafka-manager-1.3.3.13/conf/logback.xml]
+03:18:04,490 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+03:18:04,491 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word coloredLevel with class [play.api.Logger$ColoredLevel]
+03:18:04,492 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:18:04,499 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+03:18:04,537 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:18:04,575 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:27 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+03:18:04,579 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+03:18:04,580 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log for the active file
+03:18:04,584 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log'.
+03:18:04,584 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+03:18:04,588 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Sep 11 03:17:45 UTC 2017
+03:18:04,590 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/ec2-user/kafka-manager-1.3.3.13/logs/application.log
+03:18:04,590 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/ec2-user/kafka-manager-1.3.3.13/logs/application.log]
+03:18:04,591 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+03:18:04,593 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+03:18:04,595 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:18:04,596 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:18:04,598 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCFILE]
+03:18:04,598 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to ch.qos.logback.classic.AsyncAppender[ASYNCFILE]
+03:18:04,598 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Attaching appender named [FILE] to AsyncAppender.
+03:18:04,599 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Setting discardingThreshold to 51
+03:18:04,599 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:18:04,599 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCSTDOUT]
+03:18:04,599 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT]
+03:18:04,599 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Attaching appender named [STDOUT] to AsyncAppender.
+03:18:04,599 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Setting discardingThreshold to 51
+03:18:04,602 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+03:18:04,602 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+03:18:04,602 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [kafka.manager] to INFO
+03:18:04,602 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebean.config.PropertyMapLoader] to OFF
+03:18:04,602 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.core.XmlConfigLoader] to OFF
+03:18:04,603 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.lib.BackgroundThread] to OFF
+03:18:04,603 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.gargoylesoftware.htmlunit.javascript] to OFF
+03:18:04,603 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.zookeeper] to INFO
+03:18:04,603 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to WARN
+03:18:04,603 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCFILE] to Logger[ROOT]
+03:18:04,603 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCSTDOUT] to Logger[ROOT]
+03:18:04,603 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+03:18:04,604 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@766a469e - Registering current configuration as safe fallback point
+
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:host.name=localhost
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.version=1.8.0_141
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.32.amzn1.x86_64/jre
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.class.path=/home/ec2-user/kafka-manager-1.3.3.13/lib/../conf/:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-library-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-lang3-3.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.build-link-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-exceptions-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.javassist.javassist-3.19.0-GA.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-stm.scala-stm_2.11-0.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.config-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-json_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/joda-time.joda-time-2.8.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.joda.joda-convert-1.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-utils-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jul-to-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-core-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-classic-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-actor_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/commons-codec.commons-codec-1.10.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xerces.xercesImpl-2.11.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xml-apis.xml-apis-1.4.01.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.transaction.jta-1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.guice-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.inject.javax.inject-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/aopalliance.aopalliance-1.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.guava.guava-16.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/io.netty.netty-3.10.4.Final.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.code.findbugs.jsr305-2.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-play_2.11-2.4.0-2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.requirejs-2.1.20.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-0.28.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-core-0.27.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-compress-1.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.npm.validate.js-0.8.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.bootstrap-3.3.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.jquery-2.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.backbonejs-1.2.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.underscorejs-1.8.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.dustjs-linkedin-2.6.1-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.json-20121008-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-framework-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-client-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.zookeeper.zookeeper-3.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/jline.jline-0.9.94.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-recipes-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-jackson_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-core_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-ast_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalap_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-xml_2.11-1.0.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-databind-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-annotations-2.6.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-core-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalaz_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scalaz.scalaz-core_2.11-7.2.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.log4j-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.adrianhurt.play-bootstrap3_2.11-0.4.5-P24.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.clapper.grizzled-slf4j_2.11-1.0.2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka_2.11-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.101tec.zkclient-0.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.sf.jopt-simple.jopt-simple-4.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka-clients-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.jpountz.lz4.lz4-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.xerial.snappy.snappy-java-1.1.2.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.slf4j-api-1.7.21.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum-macros_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-reflect-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-assets.jar
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.name=Linux
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.arch=amd64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.version=4.9.32-15.41.amzn1.x86_64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.name=ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.home=/home/ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.dir=/home/ec2-user/kafka-manager-1.3.3.13
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6dfcac4e
+[[37minfo[0m] k.m.a.KafkaManagerActor - zk=ip-10-240-39-27.ec2.internal:22181
+[[37minfo[0m] k.m.a.KafkaManagerActor - baseZkPath=/kafka-manager
+[[37minfo[0m] o.a.z.Login - successfully logged in.
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b00039, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager
+[[37minfo[0m] k.m.a.DeleteClusterActor - Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting kafka manager path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Adding kafka manager path cache listener...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Scheduling updater for 10 seconds
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding kafka manager path cache listener...
+[[37minfo[0m] play.api.Play - Application started (Prod)
+[[37minfo[0m] p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding new cluster manager for cluster : Infra-Kafka-Docker
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@1978a20d
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.KafkaManagerActor - Not adding cluster manager for disabled cluster : Infra-Kafka-PoC
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting shared curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@643c4c14
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b0003a, negotiated timeout = 40000
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b0003b, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-command
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Scheduling updater for 30 seconds
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@240ea055,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),LongRunningPoolConfig(2,1000),5,10000,Some({sasl.mechanism=PLAIN, ssl.truststore.location=./conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=./conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state,Some({sasl.mechanism=PLAIN, ssl.truststore.location=./conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=./conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics tree cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting delete topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting offset cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting consumers tree cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Adding consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Constructing new kafka consumer client using these properties: 
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - security.protocol=SASL_SSL
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - enable.auto.commit=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - group.id=kafka-manager
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - auto.offset.reset=latest
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.location=./conf/ssl/kafka.consumer.truststore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - bootstrap.servers=ip-10-240-39-27.ec2.internal:39092,ip-10-240-39-27.ec2.internal:39093,ip-10-240-39-27.ec2.internal:39094
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.location=./conf/ssl/kafka.consumer.keystore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - exclude.internal.topics=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - sasl.mechanism=PLAIN
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.key.password=confluent
+[[31merror[0m] k.m.a.c.package$TryLogErrorHelper - Failed to create consumer for offset topic for cluster Infra-Kafka-Docker
+org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:702) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Try$.apply(Try.scala:192) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.run(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_141]
+Caused by: org.apache.kafka.common.KafkaException: org.apache.kafka.common.KafkaException: java.io.FileNotFoundException: ./conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:86) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.ClientUtils.createChannelBuilder(ClientUtils.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:623) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Try$.apply(Try.scala:192) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+Caused by: org.apache.kafka.common.KafkaException: java.io.FileNotFoundException: ./conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at org.apache.kafka.common.security.ssl.SslFactory.configure(SslFactory.java:110) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.ClientUtils.createChannelBuilder(ClientUtils.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:623) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:587) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:569) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.kafka$manager$actor$cluster$KafkaManagedOffsetCache$$createKafkaConsumer(KafkaStateActor.scala:216) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:260) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$1.apply(KafkaStateActor.scala:259) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+Caused by: java.io.FileNotFoundException: ./conf/ssl/kafka.consumer.keystore.jks (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_141]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[na:1.8.0_141]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[na:1.8.0_141]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[na:1.8.0_141]
+	at org.apache.kafka.common.security.ssl.SslFactory$SecurityStore.load(SslFactory.java:205) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory$SecurityStore.access$000(SslFactory.java:190) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory.createSSLContext(SslFactory.java:126) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.security.ssl.SslFactory.configure(SslFactory.java:108) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.SaslChannelBuilder.configure(SaslChannelBuilder.java:83) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.ChannelBuilders.create(ChannelBuilders.java:70) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - KafkaManagedOffsetCache shut down for cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Shutting down kafka manager
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.DeleteClusterActor - Removing delete clusters path cache listener...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Shutting down delete clusters path cache...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Cancelling updater...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - Closing admin client...
+03:20:05,554 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+03:20:05,554 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+03:20:05,555 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ec2-user/kafka-manager-1.3.3.13/conf/logback.xml]
+03:20:05,665 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+03:20:05,666 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word coloredLevel with class [play.api.Logger$ColoredLevel]
+03:20:05,666 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:20:05,674 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+03:20:05,699 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:20:05,733 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:27 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+03:20:05,737 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+03:20:05,738 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log for the active file
+03:20:05,742 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern '/home/ec2-user/kafka-manager-1.3.3.13/logs/application.%d{yyyy-MM-dd}.log'.
+03:20:05,742 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+03:20:05,746 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Mon Sep 11 03:19:07 UTC 2017
+03:20:05,749 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /home/ec2-user/kafka-manager-1.3.3.13/logs/application.log
+03:20:05,749 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/home/ec2-user/kafka-manager-1.3.3.13/logs/application.log]
+03:20:05,750 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+03:20:05,751 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+03:20:05,753 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+03:20:05,754 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:20:05,756 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCFILE]
+03:20:05,756 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to ch.qos.logback.classic.AsyncAppender[ASYNCFILE]
+03:20:05,756 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Attaching appender named [FILE] to AsyncAppender.
+03:20:05,757 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Setting discardingThreshold to 51
+03:20:05,758 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+03:20:05,758 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCSTDOUT]
+03:20:05,758 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT]
+03:20:05,758 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Attaching appender named [STDOUT] to AsyncAppender.
+03:20:05,758 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Setting discardingThreshold to 51
+03:20:05,762 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+03:20:05,762 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+03:20:05,762 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [kafka.manager] to INFO
+03:20:05,762 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebean.config.PropertyMapLoader] to OFF
+03:20:05,762 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.core.XmlConfigLoader] to OFF
+03:20:05,763 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.lib.BackgroundThread] to OFF
+03:20:05,763 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.gargoylesoftware.htmlunit.javascript] to OFF
+03:20:05,763 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.zookeeper] to INFO
+03:20:05,763 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to WARN
+03:20:05,763 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCFILE] to Logger[ROOT]
+03:20:05,763 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCSTDOUT] to Logger[ROOT]
+03:20:05,763 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+03:20:05,764 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3c7cf859 - Registering current configuration as safe fallback point
+
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:host.name=localhost
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.version=1.8.0_141
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.32.amzn1.x86_64/jre
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.class.path=/home/ec2-user/kafka-manager-1.3.3.13/lib/../conf/:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-library-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-lang3-3.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.build-link-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-exceptions-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.javassist.javassist-3.19.0-GA.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-stm.scala-stm_2.11-0.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.config-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-json_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/joda-time.joda-time-2.8.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.joda.joda-convert-1.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-utils-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jul-to-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-core-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/ch.qos.logback.logback-classic-1.1.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-actor_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.14.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/commons-codec.commons-codec-1.10.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xerces.xercesImpl-2.11.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/xml-apis.xml-apis-1.4.01.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.transaction.jta-1.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.guice-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/javax.inject.javax.inject-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/aopalliance.aopalliance-1.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.guava.guava-16.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/io.netty.netty-3.10.4.Final.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.google.code.findbugs.jsr305-2.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-play_2.11-2.4.0-2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.requirejs-2.1.20.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-0.28.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.webjars-locator-core-0.27.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.commons.commons-compress-1.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.npm.validate.js-0.8.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.bootstrap-3.3.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.jquery-2.1.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.backbonejs-1.2.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.underscorejs-1.8.3.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.dustjs-linkedin-2.6.1-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.webjars.json-20121008-1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-framework-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-client-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.zookeeper.zookeeper-3.4.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/jline.jline-0.9.94.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.curator.curator-recipes-2.10.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-jackson_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-core_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-ast_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalap_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-xml_2.11-1.0.5.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-databind-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-annotations-2.6.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.fasterxml.jackson.core.jackson-core-2.6.7.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.json4s.json4s-scalaz_2.11-3.4.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scalaz.scalaz-core_2.11-7.2.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.log4j-over-slf4j-1.7.12.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.adrianhurt.play-bootstrap3_2.11-0.4.5-P24.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.clapper.grizzled-slf4j_2.11-1.0.2.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka_2.11-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.101tec.zkclient-0.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.sf.jopt-simple.jopt-simple-4.9.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.apache.kafka.kafka-clients-0.10.0.1.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/net.jpountz.lz4.lz4-1.3.0.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.xerial.snappy.snappy-java-1.1.2.6.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.slf4j.slf4j-api-1.7.21.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/com.beachape.enumeratum-macros_2.11-1.4.4.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/org.scala-lang.scala-reflect-2.11.8.jar:/home/ec2-user/kafka-manager-1.3.3.13/lib/kafka-manager.kafka-manager-1.3.3.13-assets.jar
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.name=Linux
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.arch=amd64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.version=4.9.32-15.41.amzn1.x86_64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.name=ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.home=/home/ec2-user
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.dir=/home/ec2-user/kafka-manager-1.3.3.13
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3bda31
+[[37minfo[0m] k.m.a.KafkaManagerActor - zk=ip-10-240-39-27.ec2.internal:22181
+[[37minfo[0m] k.m.a.KafkaManagerActor - baseZkPath=/kafka-manager
+[[37minfo[0m] o.a.z.Login - successfully logged in.
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b0003c, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager
+[[37minfo[0m] k.m.a.DeleteClusterActor - Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting kafka manager path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Adding kafka manager path cache listener...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Scheduling updater for 10 seconds
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding kafka manager path cache listener...
+[[37minfo[0m] play.api.Play - Application started (Prod)
+[[37minfo[0m] p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding new cluster manager for cluster : Infra-Kafka-Docker
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@7d38b316
+[[37minfo[0m] k.m.a.KafkaManagerActor - Not adding cluster manager for disabled cluster : Infra-Kafka-PoC
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting shared curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@eee6583
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b0003d, negotiated timeout = 40000
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b0003e, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Scheduling updater for 30 seconds
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-command
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@7355825f,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),LongRunningPoolConfig(2,1000),5,10000,Some({sasl.mechanism=PLAIN, ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics tree cache...
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)),LongRunningPoolConfig(2,1000),akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state,Some({sasl.mechanism=PLAIN, ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting delete topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting offset cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting consumers tree cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Adding consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Constructing new kafka consumer client using these properties: 
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - security.protocol=SASL_SSL
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - enable.auto.commit=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - group.id=kafka-manager
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - auto.offset.reset=latest
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - bootstrap.servers=ip-10-240-39-27.ec2.internal:39092,ip-10-240-39-27.ec2.internal:39093,ip-10-240-39-27.ec2.internal:39094
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - exclude.internal.topics=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - sasl.mechanism=PLAIN
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.key.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Consumer created for kafka offset topic consumption for cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[33mwarn[0m] k.m.a.c.KafkaManagedOffsetCache - Failed to process a message from offset topic on cluster Infra-Kafka-Docker!
+java.lang.NullPointerException: null
+	at java.nio.ByteBuffer.wrap(ByteBuffer.java:396) ~[na:1.8.0_141]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:309) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:259) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Success.foreach(Try.scala:236) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.run(KafkaStateActor.scala:259) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_141]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[33mwarn[0m] o.a.k.c.n.SslTransportLayer - Failed to send SSL Close message 
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_141]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_141]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_141]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_141]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_141]
+	at org.apache.kafka.common.network.SslTransportLayer.flush(SslTransportLayer.java:195) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.SslTransportLayer.close(SslTransportLayer.java:163) ~[org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.utils.Utils.closeAll(Utils.java:690) [org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.KafkaChannel.close(KafkaChannel.java:47) [org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+	at org.apache.kafka.common.network.Selector.close(Selector.java:471) [org.apache.kafka.kafka-clients-0.10.0.1.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2399 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2400 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2401 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2402 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2403 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2404 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2405 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2406 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2407 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2408 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2409 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2410 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2411 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2412 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2413 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2414 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2415 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 2416 : {__consumer_offsets=LEADER_NOT_AVAILABLE}
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 3591 : {__consumer_offsets=UNKNOWN}
+[[33mwarn[0m] o.a.k.c.NetworkClient - Error while fetching metadata with correlation id 3592 : {__consumer_offsets=UNKNOWN}
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic test
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=test] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic logstash
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=logstash] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - Failed to get offsets for topic __consumer_offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[31merror[0m] k.m.a.c.OffsetCacheActive - [topic=__consumer_offsets] An error has occurred while getting topic offsets
+java.lang.IllegalArgumentException: requirement failed: Cannot fetch log size without PLAINTEXT endpoint!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.getSimpleConsumer$1(KafkaStateActor.scala:417) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20$$anonfun$21.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.collection.immutable.List.map(List.scala:273) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:428) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anonfun$20.apply(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.Option.fold(Option.scala:158) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$class.kafka$manager$actor$cluster$OffsetCache$$loadPartitionOffsets(KafkaStateActor.scala:426) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.OffsetCache$$anon$1.load(KafkaStateActor.scala:393) ~[kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating cluster manager for cluster=Infra-Kafka-Docker , old=ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL), new=ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_PLAINTEXT)
+[[37minfo[0m] k.m.a.KafkaManagerActor - Mark pending cluster manager ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_PLAINTEXT)
+[[37minfo[0m] k.m.a.KafkaManagerActor - Removing cluster manager ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_SSL)
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Shutting down cluster manager Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Cancelling updater...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - Closing admin client...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state/kafka-admin-client
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Stopping kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Removing consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Shutting down consumers tree cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Stopping offset cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Removing admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Removing topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down delete topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down topics tree cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Shutting down long running executor...
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Stopped actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Shutting down shared curator...
+[[37minfo[0m] o.a.z.ClientCnxn - EventThread shut down
+[[37minfo[0m] o.a.z.ZooKeeper - Session: 0x15e6d4428b0003e closed
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Shutting down cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Shutting down curator...
+[[37minfo[0m] o.a.z.ClientCnxn - EventThread shut down
+[[37minfo[0m] o.a.z.ZooKeeper - Session: 0x15e6d4428b0003d closed
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Shutting down consumer for __consumer_offsets on cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - KafkaManagedOffsetCache shut down for cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding new cluster manager for cluster : Infra-Kafka-Docker
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4455b1c0
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting shared curator...
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@49dbb987
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.c.ZooKeeperSaslClient - Client will use DIGEST-MD5 as SASL mechanism.
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 10.240.39.27/10.240.39.27:22181. Will attempt to SASL-authenticate using Login Context section 'Client'
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 10.240.39.27/10.240.39.27:22181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b00042, negotiated timeout = 40000
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 10.240.39.27/10.240.39.27:22181, sessionid = 0x15e6d4428b00043, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/broker-view
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Scheduling updater for 30 seconds
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-command
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@5326a8b,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_PLAINTEXT)),LongRunningPoolConfig(2,1000),LongRunningPoolConfig(2,1000),5,10000,Some({sasl.mechanism=PLAIN, ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Started actor akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics tree cache...
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(Infra-Kafka-Docker,CuratorConfig(ip-10-240-39-27.ec2.internal:22181,ip-10-240-39-27.ec2.internal:32181,ip-10-240-39-27.ec2.internal:42181,100,100,1000),true,0.10.0.1,true,None,None,false,true,false,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(2),Some(1000),Some(2),Some(1000),Some(2),Some(1000))),SASL_PLAINTEXT)),LongRunningPoolConfig(2,1000),akka://kafka-manager-system/user/kafka-manager/Infra-Kafka-Docker/kafka-state,Some({sasl.mechanism=PLAIN, ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks, group.id=kafka-manager, ssl.key.password=confluent, ssl.truststore.password=confluent, security.protocol=SASL_PLAINTEXT, ssl.keystore.password=confluent, ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks}))
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting delete topics path cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting offset cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting consumers tree cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Adding consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Constructing new kafka consumer client using these properties: 
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - security.protocol=SASL_PLAINTEXT
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - enable.auto.commit=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - group.id=kafka-manager
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - auto.offset.reset=latest
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.truststore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - bootstrap.servers=ip-10-240-39-27.ec2.internal:49092,ip-10-240-39-27.ec2.internal:49093,ip-10-240-39-27.ec2.internal:49094
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.truststore.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.keystore.location=/home/ec2-user/kafka-manager-1.3.3.13/conf/ssl/kafka.consumer.keystore.jks
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - exclude.internal.topics=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - sasl.mechanism=PLAIN
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - ssl.key.password=confluent
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Consumer created for kafka offset topic consumption for cluster Infra-Kafka-Docker
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[33mwarn[0m] k.m.a.c.KafkaManagedOffsetCache - Failed to process a message from offset topic on cluster Infra-Kafka-Docker!
+java.lang.NullPointerException: null
+	at java.nio.ByteBuffer.wrap(ByteBuffer.java:396) ~[na:1.8.0_141]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:309) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:259) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at scala.util.Success.foreach(Try.scala:236) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.run(KafkaStateActor.scala:259) [kafka-manager.kafka-manager-1.3.3.13-sans-externalized.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_141]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
